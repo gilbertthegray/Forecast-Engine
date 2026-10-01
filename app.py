@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-st.set_page_config(page_title="LiftCast 2000", page_icon="📈", layout="wide")
+st.set_page_config(page_title="GAM 2000", page_icon="📈", layout="wide")
 st.markdown("""<style>
 .stApp{background:#008080;font-family:Verdana,Arial,sans-serif}
 .block-container{background:#c0c0c0;border:3px outset #fff;padding:1.5rem 2rem;max-width:1000px;margin-top:1rem}
@@ -120,7 +120,7 @@ def csv_safe(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-st.title("LiftCast 2000")
+st.title("GAM! 2000")
 st.caption("The Monthly Lifting Forecast Calculator. Your file is processed in memory and not saved.")
 st.markdown("<hr>", unsafe_allow_html=True)
 
